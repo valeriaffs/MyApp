@@ -20,8 +20,12 @@ export class FeedPage {
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
+  public somaDoisNumeros(num1:number, num2:number){
+      alert(num1 + num2);
+  }
+
   ionViewDidLoad() {
-    console.log('ionViewDidLoad FeedPage');
+   // this.somaDoisNumeros(10, 5);
   }
 
 }
